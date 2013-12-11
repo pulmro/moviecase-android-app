@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">movieDB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_listmovies">All movies</string>
+    <string name="button_fileview">File View</string>
+    <string name="server_settings_textview">Insert the address of the pc where MovieDb is running</string>
+    <string name="save_settings_button">Save settings</string>
+    <string name="serverMandatory">Server address is mandatory!</string>
+    <string name="portMandatory">Port number is mandatory. Default is 8000.</string>
+    <string name="title_activity_all_movies">All Movies</string>
+    <string name="title_activity_detail_movie">Movie detail</string>
+    <string name="empty_list_message">No movies in your database.</string>
+    <string name="update_list_message">Update</string>
+
+    <string name="runtime_text_view">Runtime: %d</string>
+
+
+    <string name="server_test_url">http://%1$s:%2$d/api/serverinfo</string>
+    <string name="get_movie_url">http://%1$s:%2$d/api/movies/%3$d</string>
+    <string name="get_movie_list_url">http://%1$s:%2$d/api/movies?short=true&amp;sort=title&amp;page=%3$d</string>
+    <string name="get_recent_movies">http://%1$s:%2$d/api/recentmovies</string>
+    <string name="get_poster_url">http://%1$s:%2$d/api/movies/%3$d/poster</string>
+
+    <string name="director_Label">Director</string>
+    <string name="cast_Label">Cast</string>
+    <string name="overview_Label">Overview</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>

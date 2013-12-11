@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/list_item_title"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:text="Titolo"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:id="@+id/list_item_director"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:paddingTop="2dp"
+        android:text="Regista"/>
+
+
+</LinearLayout>

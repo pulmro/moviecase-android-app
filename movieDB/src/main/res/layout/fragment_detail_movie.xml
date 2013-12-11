@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="213dp"
+        android:id="@+id/imageView"
+        android:background="#545454"
+        android:layout_below="@+id/titleTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie title"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="@dimen/title"
+        android:fontFamily="sans-serif-light"
+        android:padding="5dp"
+        android:id="@+id/titleTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="213dp"
+        android:layout_alignTop="@id/imageView"
+        android:layout_toRightOf="@id/imageView">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/infoLayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:text="@string/director_Label"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name Surname"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/director"
+                android:id="@+id/directorTextView"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:text="@string/cast_Label"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Cast..."
+                android:id="@+id/castTextView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageView"
+        android:text="Runtime:"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/runtimeTextView" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/runtimeTextView"
+        android:text="@string/overview_Label"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/overviewLabel" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/overviewTextView"
+        android:layout_below="@+id/overviewLabel"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal"
+        android:layout_alignLeft="@+id/imageView"
+        android:text="@string/lorem_ipsum"
+        android:textSize="@dimen/overview"/>
+
+    <TextView
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/errorTextView"
+        android:text="No movie"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#ccffffff"
+        />
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<resources>
+    <!-- Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here. -->
+
+    <dimen name="title">34sp</dimen>
+    <dimen name="director">26sp</dimen>
+    <dimen name="overview">20sp</dimen>
+</resources>

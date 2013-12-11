@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="5dp">
+
+    <ImageView
+        android:layout_height="76dp"
+        android:layout_width="56dp"
+        android:id="@+id/tiny_poster_view"
+        android:background="#aaaaaa"/>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/list_item_title"
+        android:textSize="20sp"
+        android:text="Titolo"
+
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/list_item_director"
+        android:textStyle="italic"
+        android:text="Regista"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

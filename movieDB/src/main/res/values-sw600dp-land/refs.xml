@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="activity_allmovies">@layout/activity_double_fragment</item>
+</resources>
